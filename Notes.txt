@@ -1,0 +1,42 @@
+Mongo
+Node
+Ejs
+Bootstrap
+Bcrypt 
+Mongoose
+morgan == used to log server activity
+express-session 
+cookie-parser
+express-flash
+body-parser
+connect-mongo 
+passport-authentication
+
+express.local property
+
+========================
+mongo
+show dbs
+use demodb
+show collections
+db.users.find().pretty()
+
+
+					<% if (errors.length > 0) { %>
+				<div class="alert alert-danger alert-dismissible">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden>&times</span>
+					</button>
+					<%= errors %>
+				</div>
+				<% } %>
+
+				
+					<% if(message.length > 0) { %>
+				<div class="alert alert-danger alert-dismissible">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden>&times </span>
+				</button>
+				<% message %>
+				</div>
+			<% } %>
